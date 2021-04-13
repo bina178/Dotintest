@@ -48,4 +48,3 @@ time.sleep(5)
 driver.switch_to_window(1)
 
 driver.find_element_by_xpath("//a[contains(@class,'js-ab-product-action') and child::span]").click()
-
