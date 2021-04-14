@@ -26,7 +26,6 @@ time.sleep(2)
 driver.find_element_by_xpath("//div[@class='c-navi-new-list__category c-navi-new-list__category--main']").click()
 time.sleep(2)
 
-
 driver.find_element_by_xpath('//*[@id="categories-1"]/ul/li[36]/a[1]').click()
 
 driver.execute_script("window.scrollTo(0, 500)")  
